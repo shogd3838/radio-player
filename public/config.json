@@ -1,9 +1,9 @@
 {
-  "api_url" : "https://demo.azuracast.com/api",
-  "title": "Joujma FM | Radio Station",
-  "description" : "Live Radio 24/7 Hits music Only test",
+  "api_url" : "https://radio.narvalo.fr/api",
+  "title": "Narvalo Soundz",
+  "description" : "Live Radio 24/7 Only test",
   "manifest" : {
-    "short_name": "Joujma FM",
+    "short_name": "Narvalo Soundz",
     "orientation": "portrait",
     "display": "standalone",
     "start_url": "/?utm_source=pwa_homescreen",
@@ -14,11 +14,11 @@
   "player": {
     "showLyrics": true
   },
-  "showPlaylist" : false,
+  "showPlaylist" : true,
   "socialBtn" : false,
   "meta": {
-    "url" : "https://player.jelliti.me",
-    "image" : "https://player.jelliti.me/img/icon.png",
+    "url" : "https://player.narvalo.fr",
+    "image" : "https://player.narvalo.fr/img/logo.png",
     "locale" : "US_en"
   },
   "twitter" : {

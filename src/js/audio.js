@@ -21,21 +21,17 @@ export default {
         if (this._gain ==null ) this._gain = this._context.createGain();
         this._source.connect(this._gain);
         this._gain.connect(this._context.destination);
-
+        // Wait for audio load buffer
+        this._audio.addEventListener('canplaythrough', e => {
+                this.playAudio();
+        });
         // Frequency Analyzer
         if (this._analyser ==null ) this._analyser = this._context.createAnalyser();
         this._source.connect(this._analyser);
 
         // Activate AudioContext on user event
-        if (this._context.state === 'suspended') this._context.resume()
-        
-        // Wait for audio load buffer
-        this._audio.addEventListener('canplaythrough', e => {
-                this.playAudio();
-        });
-
+        if (this._context.state === 'suspended') this.unlockAudioContext(this._context);
         return this._audio;
-
     },
 // update and return analyser frequency data
     getFreqData() {
