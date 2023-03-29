@@ -1,5 +1,5 @@
 {
-  "api_url" : "https://radio.narvalo.fr/api",
+  "api_url" : "https://radio-marro.narvalo.fr/api",
   "title": "Narvalo Soundz",
   "description" : "Live Radio 24/7 Only test",
   "manifest" : {
