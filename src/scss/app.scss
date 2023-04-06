@@ -60,12 +60,12 @@
     z-index: 0;
   }
   & > .player-bg {
-    background-position: bottom right;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
-    filter: blur(12px);
-    -webkit-filter: blur(10px);
+    /*filter: blur(12px);*/
+    /*-webkit-filter: blur(10px);*/
     background-size: cover;
-    opacity: .4;
+    opacity: .5;
   }
   @media #{$screenMedium} {
     margin: 0 ( $padSpace * 2 );
@@ -103,11 +103,11 @@
     padding: 0 $padSpace;
     height: $headerHeight;
     min-height: $headerHeight;
-    background-color: $colorCard;
+    background-color: rgba(0,0,0,.5);
   }
   .player-header {
     & > h2 {
-      color: $colorPrimary;
+      color: #fff;
       font-size : x-large;
       i { vertical-align: bottom; }
     }
@@ -185,10 +185,11 @@
     }
     #coverArt{
       margin: auto;
-      width: 200px;
-      height: 200px;
-      border-radius: 8px;
-      filter: drop-shadow(0 0 0.75rem slategrey);
+      width: 89%;
+      height: 89%;
+      border-radius: 2px;
+      /*filter: drop-shadow(0 0 0.75rem slategrey);*/
+      padding-top: 19px;
     }
     & > section {
       margin: auto 0; // prevent vertical aligned flex item from overflowing

@@ -39,7 +39,7 @@
   padding: 0.5em !important;
   margin: 0 !important;
   margin-bottom: 0.3em !important;
-  background-color: rgb(145 155 185 / 34%);
+  background-color: rgba(0, 0, 0 );
   border-radius: 7px;
 }
 
@@ -47,12 +47,16 @@
 .push-top { margin-top: $padSpace; }
 .push-right { margin-right: $padSpace; }
 .push-bottom { margin-bottom: $padSpace; }
-.push-left { margin-left: $padSpace; }
+.push-left { margin-left: $padSpace; 
+             display: none;
+}
 .push-all { margin: $padSpace; }
 
 // padding helpers
 .pad-top { padding-top: $padSpace; }
-.pad-right { padding-right: $padSpace; }
+.pad-right { padding-right: 1em;
+             color: #ffa500;
+}
 .pad-bottom { padding-bottom: $padSpace; }
 .pad-left { padding-left: $padSpace; }
 .pad-all { padding: $padSpace; }
