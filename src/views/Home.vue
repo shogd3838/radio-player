@@ -5,12 +5,15 @@
         <div class="player-greet flex-1" id="home">
                 <div class="fx fx-slide-left push-bottom"><h1 v-html="$t('pick_a_station')">Pick a Station</h1></div>
 
+                <!--
                 <div class="fx fx-slide-up fx-delay-2 pad-top">
                     <button class="cta-btn" @click="toggleSidebar( true )"><i
                             class="fa fa-headphones" aria-label="OpenSidebar">&nbsp;</i>
                          {{$t('view_stations')}}
                     </button>
                 </div>
+                -->
+
         </div>
         <ul class="flex-grid home-station-list">
             <router-link tag="li" class="card fx flex-grid-sm flex-1" id="station"

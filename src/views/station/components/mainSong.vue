@@ -20,12 +20,13 @@
       </div>
     </div>
 
-
+    <!--
     <div v-if="config.showPlaylist" class="card push-bottom fx fx-slide-up fx-delay-3">
       <div v-if="currentsong" class="text-secondary">
         <span class="text-faded">Playlist:</span> {{ track.playlist }}
       </div>
     </div>
+    -->
 
     <div class="push-bottom ">
       <div class="card flex-item flex-top flex-stretch fx fx-slide-up fx-delay-4 flex-1">
