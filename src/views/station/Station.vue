@@ -12,7 +12,7 @@
         </div>
 
 
-        <syncLyrics></syncLyrics>
+        <!-- <syncLyrics></syncLyrics> -->
 
       </section>
     </main>
@@ -42,7 +42,7 @@ export default {
     MainSong,
     SongsHistory,
     favBtn,
-    syncLyrics,
+    //syncLyrics,
     footerPlayer,
   },
   data: () => {

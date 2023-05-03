@@ -12,7 +12,7 @@
     "theme_color": "#222336"
   },
   "player": {
-    "showLyrics": true
+    "showLyrics": false
   },
   "showPlaylist" : true,
   "socialBtn" : false,
