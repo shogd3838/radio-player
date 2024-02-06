@@ -2,7 +2,7 @@
 
     <div id="app" class="app-wrap" >
         <!-- app player container -->
-        <main id="player-wrap" class="player-wrap" style="opacity: 0;" >
+        <main id="player-wrap" class="player-wrap" >
             <!-- bg absolute elements -->
             <figure id="player-bg" class="player-bg" v-bind:style="{ 'background-image' : `url(  ${ getBackground} )` }"></figure>
             <audioVisualizations ></audioVisualizations>
